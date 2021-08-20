@@ -40,11 +40,6 @@ public class GetInfoByReflectionMain {
         System.out.println(person);
 
 
-
-
-
-
-
         Object p = new Person("xiao Ming");
         Class<?> c = p.getClass();
         Field f = c.getDeclaredField("name");
